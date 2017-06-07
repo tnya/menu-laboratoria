@@ -1,0 +1,11 @@
+@media (min-width:200px) and (max-width: 824px){
+	nav{
+		flex-direction:column;
+	}
+	a{
+		width:100%;
+		font-family: 'Roboto', sans-serif;
+		text-transform: uppercase;
+
+	}
+}

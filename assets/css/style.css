@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.flex-container{
+	display:flex;
+}
+
+nav{/*nav toma las direcciones */
+	width:100%;
+	flex-direction:row;
+	
+}
+
+
+a{
+	background-color: pink;
+	text-decoration:none;
+	color:white;
+	font-size: 18px;
+	text-align:center;
+	line-height: 60px;
+	border: 2px solid white ;
+	width: 16.4%;/* como tiene width, al pasar a column no se adapta al 100%. Si lo corrijo en media y pongo width al 100% si corrige el tamaño*/
+	
+}
+
+
+
+.container{
+
+	
+}
+/* cursor:pointer; */
