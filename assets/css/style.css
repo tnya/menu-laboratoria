@@ -1,36 +1,41 @@
 *{
-	padding:0;
-	margin:0;
-	font-family: 'Montserrat', sans-serif;
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .flex-container{
-	display:flex;
-}
+    background: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-around;
+    align-content: center;
+} 
 
 nav{/*nav toma las direcciones */
-	width:100%;
-	flex-direction:row;
-	
+    width:100%;
+
+    
 }
 
 
 a{
-	background-color: pink;
-	text-decoration:none;
-	color:white;
-	font-size: 18px;
-	text-align:center;
-	line-height: 60px;
-	border: 2px solid white ;
-	width: 16.4%;/* como tiene width, al pasar a column no se adapta al 100%. Si lo corrijo en media y pongo width al 100% si corrige el tamaño*/
-	
+    text-decoration:none;
+    color:white;
+    font-size: 18px;
+    text-align:center;
+    line-height: 60px;
+    border: 2px solid white ;
+    width: 16.4%;/* como tiene width, al pasar a column no se adapta al 100%. Si lo corrijo en media y pongo width al 100% si corrige el tamaño*/
+
+}
+
+a:hover {
+    background-color: #fff;
+    color: pink;
+    border: 2px solid pink;
+    cursor:pointer;
 }
 
 
-
-.container{
-
-	
-}
-/* cursor:pointer; */

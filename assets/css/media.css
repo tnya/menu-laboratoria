@@ -1,7 +1,8 @@
 @media (min-width:200px) and (max-width: 824px){
-	nav{
+	.flex-container{
 		flex-direction:column;
 	}
+
 	a{
 		width:100%;
 		font-family: 'Roboto', sans-serif;
